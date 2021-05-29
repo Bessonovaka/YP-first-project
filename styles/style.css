@@ -14,6 +14,12 @@
   width: 183px;
 }
 
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+  width: 183px;
+  height: 35px;
+}
+
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
   position: absolute;
@@ -105,6 +111,7 @@
 
 .header__link {
   color: #2f80ed;
+  cursor: pointer;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -113,7 +120,7 @@
   height: 568px;
   width: 568px;
   position: absolute;
-  top: -64px;
+  top: 64px;
   right: 0;
 }
 
@@ -207,6 +214,7 @@
   line-height: 51px;
   font-size: 36px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .kaufman {
@@ -224,4 +232,66 @@
   background-image: url(../images/kaufman-triangle.svg);
   height: 877px;
   width: 877px;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  padding: 60px 0 40px;
+  min-height: 350px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  min-height: 350px;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  position: relative;
+}
+
+.footer__author {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer__columns_info {
+  display: flex;
+}
+
+.footer__column_content_info {
+  margin-right: 1em;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 20px;
+}
+
+.footer__column-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
